@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;1,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo Narrow', sans-serif;
+    width: 100%;
+    display: flex;
+}
+
+.sidebar {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #202123;
+    width: 270px;
+    height: 100vh;
+
+}
+.sidebar svg {
+    width: 15px;
+    height: 15px;
+    padding: 0px 5px;
+}
+.sidebar button {
+    background-color: inherit;
+    color: inherit;
+    padding: 6px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.sidebar #new-chat {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.btnElement {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;
+    width: 200px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    overflow-y: auto;
+    padding: 20px;
+    width: 80%;
+}
+.user-question {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.7;
+    margin: 5px 0px;
+    padding: 0px 10px;
+}
+#avatar {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.boot-response {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.4;
+    margin: 5px 0px;
+    padding: 0px 10px;
+}
+.boot-response svg {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.container {
+    display: flex;
+}
+.container .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px 0px;
+    font-size: 1.125rem;
+}
+
+.item button{
+    padding: 10px;
+    margin: 5px 0px;
+    font-size: 0.9rem;
+    max-width: 290px;
+}
+
+.item svg {
+    width: 30px;
+    height: 30px;
+}
+
+.item ul {
+    display: flex;
+    flex-direction: column;
+}
+.bottom-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+ button {
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+input {
+    border: none;
+    padding: 6px 6px;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.info {
+    font-size: 13px;
+    padding: 5px;
+}
+
+.nav {
+    text-align: center;
+}
